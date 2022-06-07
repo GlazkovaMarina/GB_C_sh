@@ -68,33 +68,33 @@
 //     Console.WriteLine("no");
 // }
 
-// Задача 8: Напишите программу, которая на вход
-// принимает число (N), а на выходе показывает все чётные
-// числа от 1 до N.
-// 5 -> 2, 4
-// 8 -> 2, 4, 6, 8
-int N = -1;
-while (N <= 0) // check our user
-{
-    Console.Write("Input positive integer number N: ");
-    N = int.Parse(Console.ReadLine());
-    if (N <= 0)
-    {
-        Console.WriteLine("Incorrect input!");
-    }
-}
+// // Задача 8: Напишите программу, которая на вход
+// // принимает число (N), а на выходе показывает все чётные
+// // числа от 1 до N.
+// // 5 -> 2, 4
+// // 8 -> 2, 4, 6, 8
+// int N = -1;
+// while (N <= 0) // check our user
+// {
+//     Console.Write("Input positive integer number N: ");
+//     N = int.Parse(Console.ReadLine());
+//     if (N <= 0)
+//     {
+//         Console.WriteLine("Incorrect input!");
+//     }
+// }
 
-if (N != 1)
-{
-    int i = 2;
-    while(i <= N)
-    {
-        Console.Write(i + " ");
-        i += 2;
-    }
-}
-else
-{
-    Console.WriteLine("There are not even numbers.");
-}
+// if (N != 1)
+// {
+//     int i = 2;
+//     while(i <= N)
+//     {
+//         Console.Write(i + " ");
+//         i += 2;
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("There are not even numbers.");
+// }
 
