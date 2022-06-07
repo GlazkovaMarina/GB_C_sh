@@ -22,32 +22,32 @@
 //     Console.WriteLine("a = b = " + a);
 // }
 
-// Задача 4: Напишите программу, которая принимает на
-// вход три числа и выдаёт максимальное из этих чисел.
-// 2, 3, 7 -> 7
-// 44 5 78 -> 78
-// 22 3 9 -> 22
+// // Задача 4: Напишите программу, которая принимает на
+// // вход три числа и выдаёт максимальное из этих чисел.
+// // 2, 3, 7 -> 7
+// // 44 5 78 -> 78
+// // 22 3 9 -> 22
 
-Console.WriteLine("Input integer number a: ");
-int a = int.Parse(Console.ReadLine());
-Console.WriteLine("Input integer number b: ");
-int b = int.Parse(Console.ReadLine());
-Console.WriteLine("Input integer number c: ");
-int c = int.Parse(Console.ReadLine());
-int max = -9999999;
-if (a >= b & a >= c)
-{
-    max = a;
-}
-else if (b > a & b >= c)
-{
-    max = b;
-}
-else
-{
-    max = c;
-}
-Console.WriteLine("max = " + max);
+// Console.WriteLine("Input integer number a: ");
+// int a = int.Parse(Console.ReadLine());
+// Console.WriteLine("Input integer number b: ");
+// int b = int.Parse(Console.ReadLine());
+// Console.WriteLine("Input integer number c: ");
+// int c = int.Parse(Console.ReadLine());
+// int max = -9999999;
+// if (a >= b & a >= c)
+// {
+//     max = a;
+// }
+// else if (b > a & b >= c)
+// {
+//     max = b;
+// }
+// else
+// {
+//     max = c;
+// }
+// Console.WriteLine("max = " + max);
 
 
 // Задача 6: Напишите программу, которая на вход
@@ -57,6 +57,16 @@ Console.WriteLine("max = " + max);
 // -3 -> нет
 // 7 -> нет
 
+Console.Write("Input integer number a: ");
+int a = int.Parse(Console.ReadLine());
+if (a % 2 == 0)
+{
+    Console.WriteLine("yes");
+}
+else
+{
+    Console.WriteLine("no");
+}
 
 // Задача 8: Напишите программу, которая на вход
 // принимает число (N), а на выходе показывает все чётные
